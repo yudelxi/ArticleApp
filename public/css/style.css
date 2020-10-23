@@ -1,0 +1,82 @@
+/* CSS Document */
+html, body {
+    height: 100%;
+}
+
+/********** All Archives Table (admin) **********/
+#articles {
+    border: 2px solid #41B8C4;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#articles td, #articles th {
+    padding: 8px;
+}
+
+#articles tr:nth-child(even) {
+    background-color: #FFF4CF;
+}
+
+#articles tr:hover {
+    background-color: #ddd;
+}
+
+#articles th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #EF7D50;
+    color: white;
+    border-bottom: 2px solid #41B8C4;
+}
+
+/********** Custom Colors **********/
+.bg-warm {
+    background-color: #FFF4CF;
+}
+
+.bg-danger {
+    background-color: #EF7D50!important;
+}
+
+.text-danger {
+    color: #EF7D50!important;
+}
+
+/********** Other **********/
+.article-block {
+    width: 94px;
+}
+
+.archive-block {
+    width: 130px;
+}
+
+hr {
+    border-top-color: #17a2b8!important;
+}
+
+.btn {
+    color: white!important;
+    font-weight: 700!important;
+}
+
+.btn-danger {
+    background-color: #EF7D50!important;
+    border-color: #EF7D50!important;
+}
+
+.h-custom {
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.h6 {
+    font-size: 0.9rem;
+}
+
+.w-70 {
+    width: 70%;
+}
